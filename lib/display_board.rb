@@ -13,5 +13,15 @@ def display_board(new)
 end
 
 board = [" "," "," "," "," "," "," "," "," "," "," "," "]
-puts display_board(board)
+print display_board(board)
 
+def display_board(new)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   | X |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+
+board = [" "," "," "," "," "," "," "," "," "," "," "," "]
+print display_board(board)
