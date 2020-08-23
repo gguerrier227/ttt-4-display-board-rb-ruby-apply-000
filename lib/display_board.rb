@@ -13,6 +13,8 @@ end
 
 board = [" "," "," "," "," "," "," "," "," "," "," "," "]
 board0 = [" "," "," "," "," ","X"," "," "," "," "," "," "]
+board1 = ["O"," "," "," "," "," "," "," "," "," "," "," "] 
+
 puts display_board(board)
 puts display_board(board0)
-
+puts display_board(board1)
