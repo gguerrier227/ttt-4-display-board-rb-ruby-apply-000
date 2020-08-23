@@ -20,7 +20,7 @@ puts display_board(board)
 def display_board(new1)
   puts "   |   |   "
   puts "-----------"
-  puts "   |X |   "
+  puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
 end
