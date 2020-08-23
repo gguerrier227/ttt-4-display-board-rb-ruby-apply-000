@@ -3,7 +3,7 @@
 
 #Empty Board
 
-def display_board
+def display_board(board)
    puts row = ["   " "|" "   " "|" "   "]
    puts separator = "-----------"
    puts row 
@@ -12,9 +12,6 @@ def display_board
  end
 
 board = [" "," "," "," "," "," "," "," "," "," "," "," "]
-board = [" "," "," "," "," ","X"," "," "," "," "," "," "]
-board = ["O"," "," "," "," "," "," "," "," "," "," "," "] 
 
 puts display_board(board)
-puts display_board0(board0)
-puts display_board(board1)
+
