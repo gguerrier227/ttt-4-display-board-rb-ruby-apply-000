@@ -12,7 +12,7 @@ def display_board(new)
   puts "   |   |   "
 end
 
-board = " "," "," "," "," "," "," "," "," "," "," "," "
+board = [" "," "," "," "," "," "," "," "," "," "," "," "]
 puts display_board(board)
 
 #Center X 
@@ -25,5 +25,5 @@ def display_board(new1)
   puts "   |   |   "
 end
 
-board1 = " "," "," "," "," ","X"," "," "," "," "," "," "
+board1 = [" "," "," "," "," ","X"," "," "," "," "," "," "]
 puts display_board(board1)
