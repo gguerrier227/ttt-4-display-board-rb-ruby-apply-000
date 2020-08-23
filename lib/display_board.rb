@@ -6,7 +6,7 @@
 def display_board(board)
    puts row0 = ["   " "|" "   " "|" "   "]
    puts separator = "-----------"
-   puts row1 = ["   " "|" "   " "|" "   "]
+   puts row1 = ["   " "|" " X " "|" "   "]
    puts separator1 = "-----------"
    puts row2 = ["   " "|" "   " "|" "   "]
  end
