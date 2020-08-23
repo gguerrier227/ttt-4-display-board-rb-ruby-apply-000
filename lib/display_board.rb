@@ -16,7 +16,7 @@ print display_board(board)
 
 #X center
 
-def display_board(new)
+def display_board(new0)
   puts "   |   |   "
   puts "-----------"
   puts "   | X |   "
@@ -24,8 +24,8 @@ def display_board(new)
   puts "   |   |   "
 end
 
-board = [" "," "," "," "," ","X"," "," "," "," "," "," "]
-print display_board(board)
+board0 = [" "," "," "," "," ","X"," "," "," "," "," "," "]
+print display_board(board0)
 
 #X center O top left 
 
