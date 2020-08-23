@@ -14,7 +14,7 @@ def display_board(board)
 board = [" "," "," "," "," "," "," "," "," "," "," "," "]
 puts display_board(board)
 
-def display_board(board)
+def display_board(board0)
    puts row0 = ["   " "|" "   " "|" "   "]
    puts separator = "-----------"
    puts row1 = ["   " "|" " X " "|" "   "]
@@ -23,5 +23,5 @@ def display_board(board)
  end
 
 board = [" "," "," "," "," ","X"," "," "," "," "," "," "]
-puts display_board(board)
+puts display_board(board0)
 
