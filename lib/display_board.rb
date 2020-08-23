@@ -17,10 +17,10 @@ puts display_board(board)
 
 #Center X 
 
-def display_board(new)
+def display_board(new1)
   puts "   |   |   "
   puts "-----------"
-  puts "   |   |   "
+  puts "   |X |   "
   puts "-----------"
   puts "   |   |   "
 end
