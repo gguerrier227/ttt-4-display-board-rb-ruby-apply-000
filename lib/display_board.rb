@@ -11,8 +11,8 @@ def display_board(board)
    puts row2 = ["   " "|" "   " "|" "   "]
  end
 
-board = [" "," "," "," "," "," "," "," "," "," "," "," "]
-puts display_board(board)
+empty = [" "," "," "," "," "," "," "," "," "," "," "," "]
+puts display_board(empty)
 
 def display_board(board)
    puts row0 = ["   " "|" "   " "|" "   "]
