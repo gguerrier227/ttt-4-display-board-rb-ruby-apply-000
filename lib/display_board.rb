@@ -4,11 +4,11 @@
 #Empty Board
 
 def display_board(board)
-   puts row = ["   " "|" "   " "|" "   "]
+   puts row0 = ["   " "|" "   " "|" "   "]
    puts separator = "-----------"
-   puts row 
-   puts separator
-   puts row
+   puts row1 = ["   " "|" "   " "|" "   "]
+   puts separator1 = "-----------"
+   puts row2 = ["   " "|" "   " "|" "   "]
  end
 
 board = [" "," "," "," "," "," "," "," "," "," "," "," "]
