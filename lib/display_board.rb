@@ -16,7 +16,7 @@ board = [" "," "," "," "," "," "," "," "," "," "," "," "]
 print display_board(board)
 
 def display_board(new)
-  puts "   |   |   "
+  puts " O |   |   "
   puts "-----------"
   puts "   | X |   "
   puts "-----------"
