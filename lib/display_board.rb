@@ -3,7 +3,7 @@
 
 #Empty Board
 
-def display_board(board)
+def display_board(new)
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
@@ -16,7 +16,7 @@ display_board(board)
 
 #Center X 
 
-def display_board(board)
+def display_board(new)
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
