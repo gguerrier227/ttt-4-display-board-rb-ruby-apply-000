@@ -16,6 +16,7 @@ display_board(board)
 
 #Center X 
 
+board = " "," "," "," "," "," X "," "," "," "," "," "," "
 def display_board(new)
   puts "   |   |   "
   puts "-----------"
@@ -24,5 +25,4 @@ def display_board(new)
   puts "   |   |   "
 end
 
-board = " "," "," "," "," "," X "," "," "," "," "," "," "
 display_board(board)
