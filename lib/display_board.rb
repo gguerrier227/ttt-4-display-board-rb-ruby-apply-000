@@ -14,7 +14,14 @@ def display_board(board)
 empty = [" "," "," "," "," "," "," "," "," "," "," "," "]
 puts display_board(empty)
 
+def display_board(board)
+   puts row0 = ["#{tl}" "|" "#{tm}" "|" "#{tr}"]
+   puts separator = "-----------"
+   puts row1 = ["#{cl}" "|" "#{cm}" "|" "#{cr}"]
+   puts separator1 = "-----------"
+   puts row2 = ["#{bl}" "|" "#{bm}" "|" "#{br}"]
+ end
 
-board0 = [" "," "," "," "," ","X"," "," "," "," "," "," "]
+cm = ['X']
 puts display_board(board0)
 
