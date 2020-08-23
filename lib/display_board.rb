@@ -12,7 +12,7 @@ def display_board(new)
 end
 
 board = [" "," "," "," "," "," "," "," "," "," "," "," "]
-print display_board(board)
+puts display_board(board)
 
 #X center
 
@@ -25,7 +25,7 @@ def display_board(new0)
 end
 
 board0 = [" "," "," "," "," ","X"," "," "," "," "," "," "]
-print display_board(board0)
+puts display_board(board0)
 
 #X center O top left 
 
@@ -38,4 +38,4 @@ def display_board(new1)
 end
 
 board1 = ["O"," "," "," "," ","X"," "," "," "," "," "," "]
-print display_board(board1)
+puts display_board(board1)
