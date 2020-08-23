@@ -23,5 +23,5 @@ def display_board(new)
   puts "   |   |   "
 end
 
-board = [" "," "," "," "," "," "," "," "," "," "," "," "]
+board = ["O"," "," "," "," ","X"," "," "," "," "," "," "]
 print display_board(board)
