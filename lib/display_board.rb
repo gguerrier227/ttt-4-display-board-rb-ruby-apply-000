@@ -27,3 +27,15 @@ end
 
 board1 = [" "," "," "," "," "," "," "," "," "," "," "," "]
 puts display_board(board1)
+ 
+#O in top left
+ 
+def display_board(new)
+  puts " O |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+
+board = [" "," "," "," "," "," "," "," "," "," "," "," "]
