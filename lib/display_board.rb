@@ -10,7 +10,7 @@ def display_board(new)
   puts "-----------"
   puts "   |   |   "
 end
-def display_board(new)
+def display_board(new0)
   puts "   |   |   "
   puts "-----------"
   puts "   | X |   "
